@@ -11,7 +11,7 @@
     <title>My tasks</title>
 
     <style>
-      .container > .row {
+      .row {
         min-height: 100vh;
       }
     </style>
@@ -20,27 +20,22 @@
     <div class="container">
       <div class="row justify-content-center align-items-center">
         <div class="col-12 col-lg-5 col-md-8 col-sm-10">
-          <h1>Login</h1>
+          <h1>Cadastro</h1>
 
           <form>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <label for="exampleInputEmail1" class="form-label">Email</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Manter conectado</label>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Confirmar senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword2">
             </div>
-            <div class="row">
-              <div class="col">
-                <a href="register.html" type="submit" class="btn btn-outline-secondary">Cadastre-se</a>
-                <a href="dashboard.html" type="submit" class="btn btn-primary">Entrar</a>
-              </div>
-            </div>
+            <a href="dashboard.html" type="submit" class="btn btn-primary">Cadastrar</a>
           </form>
         </div>
       </div>
